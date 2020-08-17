@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+}
+body{
+    background-color: #181920;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
+h1,h2,h4,h5,h6 .navbar-brand{
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+}
+
+/* Menu*/
+.navbar{
+    min-height: 5rem;
+}
+.container-menu navbar{
+    padding-top: 50px;
+    min-height: 1rem;
+}
+
+.bg-dark{
+ background-color: #24252A !important;
+}
+
+.btn-outline-success{
+    background-color:#3085F3;
+    color: #ffffff;
+    border:none;
+}
+.btn-outline-success:hover{
+    background-color:#ffffff !important;
+    color: #3085F3;
+    border:none;
+}
+/*header*/
+
+.titular{
+        text-align: center;
+        margin-top: 150px; 
+        color: #ffffff;
+}
+.titular h1{
+    font-size: 100px;
+    margin: 0;
+}
+.titular h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.btn-ocean{
+    font-size: 20px;
+    background: #ffffff;
+    padding: 15px 20px 15px 20px;
+    color: #437dd7;
+    border-radius: 5px;
+  }
+  .btn-ocean:hover{
+    background-color: #437dd7;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+header{
+    background-image: url("../img/background.jpg");
+    height: 100vh;
+    background-size:cover;
+}
+
+/*multidevices*/
+#about{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+}
+
+.container-devices{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px 40px 40px;
+}
+
+.info-devices h1{
+    font-size: 35px;
+    color: #06194D;
+}
+.info-devices p{
+    font-size: 25px;
+    color: #838BB4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.devices{
+    width: 750px;
+    height: 363;
+}
+
+/*Telegram*/
+#contact{
+    background:none;
+}
+#contact a{
+    position:fixed;
+    top: 85%;
+    right: 5%;
+}
+.telegram{
+    width: 70px;
+    height: 70px;
+}
+/* No credit card */
+.no-credit-card-info{
+    color: white;
+}
+/*no-credit-card*/
+#no-credit-card{
+    padding-top: 50px;
+}
+.container-no-credit-card{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+
+.no-credit-card-info h1{
+    font-size: 35px;
+    padding-top: 10px;
+}
+.no-credit-card-info p{
+    font-size: 25px;
+    color: #838BB4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.credit-card{
+    width: 750px;
+    height: 363;
+}
+
+/*Advantages*/
+#advantages{
+    background-color: #ffffff;
+    padding: 50px 30px 50px 30px;
+}
+.container-advantages h1{
+    color:#06194D;
+    font-size:50px;
+}
+.list-group-item{
+    font-size: 30px;
+    border:none;
+    color: #838BB4;
+}
+
+#banner{
+    color: white;
+    text-align: center;
+    margin: 50px 30px 50px 30px;
+}
+#questions{
+    background-color: #ffffff;
+    padding: 50px 30px 50px 30px;
+}
+
+.card-header{
+    background-color: #24252A;
+}
+.text-left{
+    color: #ffffff;
+    text-decoration: none;
+}
+.text-left:hover{
+    color: #3085f3;
+    text-decoration: none;
+}
+footer{
+    color: #ffffff;
+    display:flex;
+    justify-content:center;
+    padding: 40px 0px 30px 30px;
+    align-items: center;
+}
+footer img{
+    width:60px;
+    height:60px;
+}
+footer p{
+    margin: 0px 0 0 20px;
+}
+/*Responsive*/
+
+@media (max-width : 480px){
+    .titular{
+        margin-top: 7px;
+    }
+   h1{
+       font-size:30px;
+   }
+   h2{
+       font-size: 19px ;
+   }
+   /*devices*/
+   .container-devices{
+    flex-direction: column;
+    margin: 20px 30px 20px 30px;
+   }
+
+   .devices{
+    width: 300px;
+    height: auto;
+}
+/*no-credit-card*/
+    .container-no-credit-card{
+        flex-direction: column;
+        margin: 20px 30px 20px 30px;
+    }
+    .credit-card{
+        width: 300px;
+        height: auto;
+    }
+    
+}
