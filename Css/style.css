@@ -189,6 +189,28 @@ footer img{
 footer p{
     margin: 0px 0 0 20px;
 }
+
+/*Donate*/
+#donate{
+    background-color: #3085f3;
+    color: #ffffff;
+    text-align: center;
+}
+.container-donations{
+    padding: 50px 30px 50px 30px;
+}
+/*cancelled*/
+
+#cancelled{
+    background-image: url('../Img/cancelled.jpg');
+    height: 100vh;
+    background-size:cover;
+}
+#approved{
+    background-image: url('../Img/approved.jpg');
+    height: 100vh;
+    background-size:cover;
+}
 /*Responsive*/
 
 @media (max-width : 480px){
