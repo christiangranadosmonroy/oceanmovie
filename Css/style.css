@@ -8,7 +8,7 @@ body{
     font-weight: 300;
     letter-spacing: .05rem;
 }
-h1,h2,h4,h5,h6 .navbar-brand{
+h1,h2,h3,h4,h5,h6 .navbar-brand{
     font-weight: 500 !important;
     line-height: 1.5 !important;
 }
@@ -83,11 +83,12 @@ header{
     margin: 30px 0px 40px 40px;
 }
 
-.info-devices h1{
-    font-size: 35px;
+.info-devices h3{
+    font-size: 36px;
     color: #06194D;
 }
 .info-devices p{
+    padding-top: 50px;
     font-size: 25px;
     color: #838BB4;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -125,11 +126,12 @@ header{
     padding-bottom: 40px;
 }
 
-.no-credit-card-info h1{
+.no-credit-card-info h3{
     font-size: 35px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 .no-credit-card-info p{
+    padding-top:50px;
     font-size: 25px;
     color: #838BB4;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -144,7 +146,7 @@ header{
     background-color: #ffffff;
     padding: 50px 30px 50px 30px;
 }
-.container-advantages h1{
+.container-advantages h3{
     color:#06194D;
     font-size:50px;
 }
@@ -175,6 +177,7 @@ header{
     color: #3085f3;
     text-decoration: none;
 }
+/*footer*/
 footer{
     color: #ffffff;
     display:flex;
